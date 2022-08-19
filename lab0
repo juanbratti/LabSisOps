@@ -1,0 +1,4 @@
+Ejercicio 1: cat /proc/cpuinfo | grep model
+Ejercicio 2: cat /proc/cpuinfo | grep model | wc -l
+Ejercicio 3: wget -O Juan_in_wonderland.txt https://www.gutenberg.org/files/11/11-0.txt && sed -i 's/Alice/Juan/g' Juan_in_wonderland.txt && rm Juan_in_wonderland.txt
+Ejercicio 4:
