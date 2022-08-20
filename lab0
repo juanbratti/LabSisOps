@@ -2,4 +2,4 @@ Ejercicio 1: cat /proc/cpuinfo | grep model
 Ejercicio 2: cat /proc/cpuinfo | grep model | wc -l
 Ejercicio 3: wget -O Juan_in_wonderland.txt https://www.gutenberg.org/files/11/11-0.txt && sed -i 's/Alice/Juan/g' Juan_in_wonderland.txt && rm Juan_in_wonderland.txt
 Ejercicio 4: sort -k 4n -o weather_cordoba_out.in weather_cordoba.in && head -1 weather_cordoba_out.in | awk '{ print $1,$2,$3 }' && tail -1 weather_cordoba_out.in | awk '{ print $1,$2,$3 }'
-
+Ejercicio 5: sort -k 3n -o atpplayers_out.in atpplayers.in
