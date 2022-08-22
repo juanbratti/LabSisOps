@@ -6,4 +6,4 @@ Ejercicio 5: sort -k 3n -o atpplayers_out.in atpplayers.in
 Ejercicio 6: cat superliga_in | sort -k 2n -o superliga_out.in superliga_in && awk '$7 > max[$2] {max[$2]=$7; row[$2]=$0} END { for (i in row) print row[i] }' superliga_out.in > superliga_out_new_in
 Ejercicio 7: ip addr | grep -o -E '([[:xdigit:]]{1,2}:){5}[[:xdigit:]]{1,2}'
 Ejercicio 8a: mkdir nombre_serie && touch nombre_serie/fma_S01E{1..10}_es.srt
-Ejercicio 8b: for i in *_es.srt; do mv -- "$i" "${i%_es.srt}.srt"; done
+Ejercicio 8b: cd nombre_serie && for i in *_es.srt; do mv -- "$i" "${i%_es.srt}.srt"; done
